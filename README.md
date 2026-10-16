@@ -11,6 +11,14 @@ Sitio web estático para una cafetería, desarrollado con HTML y CSS como trabaj
 - Docker
 - Nginx
 
+Requisitos previos
+
+Git instalado para clonar y gestionar el repositorio.
+
+Docker Desktop instalado y en ejecución.
+
+Un navegador web para visualizar la aplicación.
+
 ## Estructura del proyecto
 
 - `index.html`: estructura y contenido de la página.
