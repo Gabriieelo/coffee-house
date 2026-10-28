@@ -1,6 +1,8 @@
 FROM nginx:alpine
 
-COPY index.html /usr/share/nginx/html/index.html
-COPY styles.css /usr/share/nginx/html/styles.css
-COPY cafe.png /usr/share/nginx/html/cafe.png
+WORKDIR /usr/share/nginx/html
+
+COPY index.html ./
+COPY styles.css ./
+COPY images/cafe.png ./cafe.png
 EXPOSE 80
